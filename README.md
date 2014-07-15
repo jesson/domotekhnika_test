@@ -1,4 +1,4 @@
-domotekhnika test
+Domotekhnika Test
 =================
 
 Установка
@@ -25,3 +25,11 @@ domotekhnika test
 |format    | возвращаемый формат данных xml, json |
 |user_id   | просмотр пользователя с ID = user_id |
 |nick&email| для POST запроса обновляют поля nick & email для пользователя c ID = user_id|
+
+Высокопроизводительное окружение
+================================
+- NGINX + phpfpm
+- eAccelerator
+- Оптимизация запросов к БД (кеширование) и БД (индексирование)
+- Memcached
+- MySQL в tmpfs (память)
